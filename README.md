@@ -25,7 +25,8 @@ GitHub Actions 会在云端执行构建并部署，几分钟后访问你的域�
 
 ## 自定义域名（部署前必做）
 
-1. 在 `source/CNAME` 文件中写入你的域名（例如 `example.com`）
-2. 将 `_config.yml` 中的 `url` 改为 `https://你的域名`
-3. 在 GitHub 仓库 Settings → Pages 中填写同一个域名
-4. 到域名服务商处配置 DNS（A 记录指向 GitHub Pages 的四个 IP，或 CNAME 指向 `你的用户名.github.io`）
+当前域名：`blogxd.site`（已写入 `source/CNAME` 和 `_config.yml` 的 `url`）
+
+1. 在 GitHub 仓库 Settings → Pages 的 Custom domain 中填写 `blogxd.site`
+2. 到域名服务商处配置 DNS（A 记录指向 GitHub Pages 的四个 IP，或 CNAME 指向 `hellocrackxd.github.io`）
+3. DNS 生效后在 Settings → Pages 中勾选 Enforce HTTPS
