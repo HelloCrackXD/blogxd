@@ -71,3 +71,5 @@ git push origin main     # 推送到 GitHub
 1. 在 GitHub 仓库 Settings → Pages 的 Custom domain 中填写 `blogxd.site`
 2. 到域名服务商处配置 DNS（A 记录指向 GitHub Pages 的四个 IP，或 CNAME 指向 `hellocrackxd.github.io`）
 3. DNS 生效后在 Settings → Pages 中勾选 Enforce HTTPS
+
+以上内容由AI生成
