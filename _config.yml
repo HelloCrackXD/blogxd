@@ -4,10 +4,10 @@
 
 # Site
 title: BlogXD
-subtitle: '' # 副标题，可留空
+subtitle: 'Welcome To There' # 副标题，可留空
 description: '' # 站点描述，用于 SEO
 keywords:
-author: HelloCrackXD # TODO: 改成你希望显示的作者名
+author: CrackXD # TODO: 改成你希望显示的作者名
 language: zh-CN
 timezone: Asia/Shanghai
 
@@ -74,6 +74,12 @@ tag_map:
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
+
+# Search
+## https://github.com/PaicHyperionDev/hexo-generator-search
+search:
+  path: search.xml
+  field: post
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date

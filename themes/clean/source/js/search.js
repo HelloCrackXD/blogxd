@@ -20,7 +20,7 @@ var searchFunc = function (path, search_id, content_id) {
                 var resultLength = 0;
                 $resultContent.innerHTML = "";
                 if (this.value.trim().length <= 0) {
-                    $resultContent.innerHTML = '<div class="search-empty text-center text-muted p-5"><i class="far fa-meh"></i></div>';
+                    $resultContent.innerHTML = '<div class="search-empty text-center text-muted p-5">:D</div>';
                     return;
                 }
                 // perform local searching
@@ -67,7 +67,7 @@ var searchFunc = function (path, search_id, content_id) {
                             if (end > content.length) {
                                 end = content.length;
                             }
-                            var match_content = content.substr(start, end);
+                            var match_content = content.substring(start, end);
                             // highlight all keywords
                             keywords.forEach(function (keyword) {
                                 var regS = new RegExp(keyword, "gi");
@@ -84,7 +84,7 @@ var searchFunc = function (path, search_id, content_id) {
                 str += "</ul>";
 
                 if (resultLength == 0) {
-                    str = '<div class="search-empty text-center text-muted p-5"><i class="far fa-meh"></i></div>';
+                    str = '<div class="search-empty text-center text-muted p-5">:D</div>';
                 }
 
                 $resultContent.innerHTML = str;

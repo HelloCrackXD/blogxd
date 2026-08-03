@@ -2,7 +2,7 @@
 # ---------------------------------------------------------------
 
 # Title on top left of menu. Leave empty to use main blog title
-menu_title: 
+menu_title: BlogXD
 
 # URL of the Home page image
 index_cover: /img/home-bg.jpg
@@ -12,7 +12,7 @@ favicon: /img/favicon.png
 
 # Site start year
 # Default with current year
-start_year: 
+start_year: 2023
 
 # Post config
 # ---------------------------------------------------------------
@@ -22,6 +22,12 @@ default_post_title: Untitled
 
 # Enable post toc
 toc: true
+
+#search
+search_box: true
+search:
+  path: search.json
+  field: post
 
 # Post meta
 post_info:
@@ -67,7 +73,7 @@ footer:
     github_url: https://github.com/hellocrackxd
     gitlab_url:
     linkedin_url: 
-    mailto:
+    mailto: ItsCrackXD@outlook.com
 
 # Tracking config
 # ---------------------------------------------------------------
