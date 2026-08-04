@@ -1,4 +1,7 @@
 $(document).ready( function () {
+    // Lazy-load all images
+    $('img:not([loading])').attr('loading', 'lazy');
+
     $('article').lightGallery({
         selector: '.img-item',
         subHtmlSelectorRelative: true
